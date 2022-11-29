@@ -6,7 +6,6 @@ const router = express.Router();
 router.post(
   "/donations",
   verify.verifyToken,
-  verify.ifAdmin,
   donationController.createDonation
 );
 router.get(
