@@ -27,6 +27,8 @@ semua endpoint user hanya bisa diakses oleh admin
   untuk melakukan register
 - api/logout **(DELETE METHOD)** <br>
   untuk melakukan logout
+- api/token **(GET METHOD)** <br>
+  untuk mengambil token access ketika sudah kadaluarsa saat melakukan login
 
 ## Endpoint Event
 
