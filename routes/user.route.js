@@ -3,7 +3,12 @@ const userController = require("../controller/user.controller");
 const verify = require("../middleware/auth.token");
 const router = express.Router();
 
-router.get("/users", verify.ifAdmin, userController.getUsers);
+router.get(
+  "/users",
+  verify.verifyToken,
+  verify.ifAdmin,
+  userController.getUsers
+);
 router.get(
   "/users/:id",
   verify.verifyToken,
