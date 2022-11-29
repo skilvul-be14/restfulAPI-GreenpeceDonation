@@ -1,5 +1,9 @@
 # Dokumentasi Backend Endpoint
 
+## Struktur Database (ERD)
+
+![ERD Database Table!](/skilvul%20ERD.drawio.png)
+
 ## link API : https://restfulapi-greenpecedonation-production.up.railway.app/
 
 ## Endpoint User
